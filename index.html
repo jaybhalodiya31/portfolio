@@ -14,25 +14,27 @@
 <body>
     <header class="header-section">
         <div class="container header-main">
-            <nav class="menu">
-                <input type="checkbox" id="nav-toggle">
-                <div class="logo">
-                    <a href="#"><img src="./images/yellow-logo.svg" width="100" height="50" /></a>
-                </div>
-                <ul class="links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Skilles</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <label for="nav-toggle" class="icon-burger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </label>
-            </nav>
+            <div class="navbar-main">
+                <nav class="navbar">
+                    <input type="checkbox" id="nav-toggle">
+                    <div class="logo">
+                        <a href="#"><img src="./images/yellow-logo.svg" width="100" height="50" /></a>
+                    </div>
+                    <ul class="links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#service-section">Services</a></li>
+                        <li><a href="#skill-section">Skilles</a></li>
+                        <li><a href="#testimonial-section">Testimonial</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                    </ul>
+                    <label for="nav-toggle" class="icon-burger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </label>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -92,7 +94,7 @@
         </div>
     </section> -->
 
-    <section class="service-section">
+    <section class="service-section" id="service-section">
         <div class="container">
             <div class="section-title">
                 Service
@@ -199,7 +201,7 @@
         </div>
     </section>
 
-    <section class="skill-section">
+    <section class="skill-section" id="skill-section">
         <div class="container">
             <div class="section-title">
                 My Skills
@@ -229,7 +231,7 @@
         </div>
     </section>
 
-    <section class="testimonial-section">
+    <section class="testimonial-section" id="testimonial-section">
         <div class="container">
             <div class="section-title">
                 Testimonial
@@ -329,7 +331,7 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact-section">
         <div class="container">
             <div class="section-title">
                 Contact Me
@@ -354,16 +356,16 @@
         <div class="container">
             <div class="footer-main">
                 <div class="logo">
-                    <a href="#"><img src="./images/white-logo.svg" width="100" height="50" /></a>
+                    <a href="#"><img src="./images/white-logo.svg" width="100" height="50" /></a>                
                 </div>
-                <div class="menu-link">
+                <div class="navbar-link">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Me</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Skilles</a></li>
-                        <li><a href="#">Testimonial</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#service-section">Services</a></li>
+                        <li><a href="#skill-section">Skilles</a></li>
+                        <li><a href="#testimonial-section">Testimonial</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-social-link">
@@ -396,7 +398,7 @@
             <p>© 2022 Jay. All Rights Reserved.</p>
         </div>
     </footer>
-
 </body>
+
 
 </html>
